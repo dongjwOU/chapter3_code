@@ -1,0 +1,16 @@
+File			Useage								Language
+
+AP_download		Downloads subsets of AP from ArcGIS online			Py
+
+texture_inputs		calculates texture files from AP samples			Py
+
+texture_class		Classified texture_inputs data					?
+
+rf_csv_create(OK)	create CSV of percent values from AP				R
+
+rf_classify(OK)		RF classification of Landsat based on CSV			R
+		
+rf_correct(OK)		Corrects RF values using reggression models			R
+
+rf_valid		Correlation of outputs from rf_correct against 			R
+			
